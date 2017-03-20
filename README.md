@@ -28,20 +28,4 @@ The library system, which is another Class, has a collection of rental transacti
 AddTransaction: adds new transaction to the collection
 GetTotalLateFees: calculates and returns the total lates fees of all rented items in the library.
 GetTotalRentalCosts: calculates and returns the total rental costs of all rented devices in the library.
-All classes should be defined in one package named library
-You have to define at least 7 classes
-All attributes are defined as private
-You have to use inheritance
-You have to use polymorphism
-One class should be defined as abstract with one abstract method.
-Define for every class the following:
-Constructors:
-Copy constructor
-Constructor with all the attributes
-Override the equals method
-Override the toString method
-Override the Clone method
-Setters methods with appropriate checking (e.g. no negative ID, no empty names)
-Getters methods
-Item IDs are not passed through constructors and there is no setter method for it. The ID is set using a static integer variable that is incremented every time an Item is created. 
-Look at ArrayList class to keep a collection of rentals
+
