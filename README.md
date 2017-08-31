@@ -3,6 +3,7 @@ Java project for a library system using object oriented program for different it
 
 Every Item has the following:
 
+
 ID
 Name
 Additionally, each device has an extra information, rentalCost. This number represents the cost of renting the device per day.
@@ -12,7 +13,11 @@ Book items have the following extra information:
 Authors
 Publisher
 Year
+
+
 To apply late fees, implement a method getLateFees that takes the number of late days as an input. The implementation differs based on the type of the item:
+
+
 
 Item: no implementation, since an item has to be either a device or a book.
 Device: fee= $2/day + %10 of rental cost
@@ -25,9 +30,11 @@ To represent a rental transaction, create a class Rental that stores an Item, cu
 
 The library system, which is another Class, has a collection of rental transactions. The class has two methods:
 
+
 AddTransaction: adds new transaction to the collection
 GetTotalLateFees: calculates and returns the total lates fees of all rented items in the library.
 GetTotalRentalCosts: calculates and returns the total rental costs of all rented devices in the library.
+
 
 My grade was an A+ on this assignment.
 
