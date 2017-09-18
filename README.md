@@ -8,7 +8,8 @@ ID
 
 Name
 
-Additionally, each device has an extra information, rentalCost. This number represents the cost of renting the device per day.
+
+Additionally, each device has a different rental Cost. This number represents the cost of renting the device per day.
 
 Book items have the following extra information:
 
@@ -20,7 +21,7 @@ Publisher
 Year
 
 
-To apply late fees, implement a method getLateFees that takes the number of late days as an input. The implementation differs based on the type of the item:
+To apply late fees a method called getLateFees was implemented to take the number of late days as an input and gives the rental cost which differs based on the type of the item:
 
 
 Item: no implementation, since an item has to be either a device or a book.
@@ -37,7 +38,7 @@ Textbook: fee = $1/day
 
 Magazine: fee = $0.75/day
 
-To represent a rental transaction, create a class Rental that stores an Item, customer ID and number of rentals days and number of days late as attributes.  
+The Rental was created to add new transaction. The Rental stores an Item, customer ID and number of rentals days and number of days late as attributes.  
 
 The library system, which is another Class, has a collection of rental transactions. The class has two methods:
 
