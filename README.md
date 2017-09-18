@@ -1,6 +1,6 @@
 Library By Kurt Blair
 
-Java project for a library system using object oriented program for different items a library would lend like books and electronics. Every Item has a Name and an ID. Additionally, each device has a different rental Cost. This number represents the cost of renting the device per day.
+Java project for a library system using object oriented program for different items a library would lend like books and electronics. Every Item has a Name and an ID. Additionally, each device has a different rental cost. This number represents the cost of renting the device per day.
 
 
 Book items have the following extra information:
@@ -13,7 +13,7 @@ Publisher
 Year
 
 
-To apply late fees a method called getLateFees was created to take the number of late days as an input and gives the rental cost which differs based on the type of the item:
+To apply late fees a method called getLateFees was created to take the number of late days as input and output the rental cost which differs based on the type of the item:
 
 
 Device: fee= $2/day + %10 of rental cost
