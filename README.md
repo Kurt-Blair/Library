@@ -1,4 +1,5 @@
 Library By Kurt Blair
+
 Java project for a library system using object oriented program for different items a library would lend like books and electronics.
 
 Every Item has the following:
@@ -10,6 +11,7 @@ Name
 
 
 Additionally, each device has a different rental Cost. This number represents the cost of renting the device per day.
+
 
 Book items have the following extra information:
 
@@ -36,7 +38,7 @@ Textbook: fee = $1/day
 
 Magazine: fee = $0.75/day
 
-The Rental was created to add new transaction. The Rental stores an Item, customer ID and number of rentals days and number of days late as attributes. The library system, which is another Class, has a collection of rental transactions. The class has two methods:
+The Rental class was created to add new transactions. The Rental class stores an Item, customer ID and number of rentals days and number of days late as attributes. The library system, which is another class, has a collection of rental transactions. The class has two methods:
 
 
 AddTransaction: adds new transaction to the collection
