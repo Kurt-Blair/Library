@@ -37,7 +37,3 @@ GetTotalLateFees: calculates and returns the total lates fees of all rented item
 
 GetTotalRentalCosts: calculates and returns the total rental costs of all rented devices in the library.
 
-
-
-My grade was an A+ on this assignment.
-
