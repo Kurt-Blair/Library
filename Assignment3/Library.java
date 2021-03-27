@@ -3,10 +3,6 @@ package library;
 import java.util.ArrayList;
 
 public class Library {
-  
-  // technically, should have toString, clone, and equals methods - as per question.
-  // technically, should also have a copy constructor, but don't since using default constructor.
-  // The ArrayList is static, so this assumes there is only one libary.
 
   private static ArrayList<Rental> items = new ArrayList<Rental>();
   
