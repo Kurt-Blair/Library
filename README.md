@@ -28,7 +28,7 @@ Textbook: fee = $1/day
 
 Magazine: fee = $0.75/day
 
-The Rental class was created to add new transactions. The Rental class stores an Item, customer ID and number of rentals days and number of days late as attributes. The library system, which is another class, has a collection of rental transactions. The class has two methods:
+The Rental class was created to add new transactions. The Rental class stores an Item, customer ID and number of rentals days and number of days late as attributes. The library system, which is another class, has a collection of rental transactions.
 
 
 AddTransaction: adds new transaction to the collection
